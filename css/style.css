@@ -2,15 +2,18 @@
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+   
 }
 .nav-link {
     font-size: 25px;
     font-family: 'fantasy';
-    color: black;
+    color: green;
     
 }
 .navbar {
-    min-height: 100px;
+    height: 150px;
+    margin-bottom: 0;
+    border-radius: 0;
   }
   
   .navbar-brand {
@@ -21,7 +24,7 @@
   
   .navbar-toggle {
     /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
+    margin-top: -23px;
     padding: 9px 10px !important;
   }
   
@@ -38,5 +41,28 @@
     padding-right: 15px;
   }
   .navbar-custom { 
-    background-color: darkorange; 
+    background-color: black; 
+}
+.carouselExampleIndicators {
+  width: 100%;
+      overflow: hidden;
+
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  height: 100%;
+  position: center; 
+  
+}
+
+.container {
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
 }
